@@ -9,9 +9,78 @@
   <title>Renowned Constructions</title>
 </head>
 <body>
-  <h1>Renowned Constructions</h1>
-  <h2>Coming Soon</h2>
-  <p>We're constructing big things. Visit us again soon to see what we have planned.</p>
-  <p>For additional information please contact James on (+61) 481 339 570</p>
+  <header>
+    <nav>
+      <div class="row">
+        <ul class="main-nav js--main-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-text-box">
+      <h1>RENOWNED CONSTRUCTIONS</h1>
+      <h3 id="header-title"></h3>
+      <a class="btn btn-full js--scroll-to-about" href="#">About</a>
+      <a class="btn btn-ghost js--scroll-to-contact" href="#">Contact</a>
+    </div>
+
+  </header>
+
+  <section class="section-about js--section-about" id="about">
+    <h2>Coming Soon</h2>
+    <p>We're constructing big things. Visit us again soon to see what we have planned.</p>
+    <p>For additional information please contact James on (+61) 481 339 570</p>
+  </section>
+
+  <section class="section-form js--section-contact" id="contact">
+    <div class="row">
+      <h2>Yes, I'm available for work</h2>
+    </div>
+    <div class="form">
+      <form action="mailto:james@renownedconstructions.com.au" method="post" enctype="text/plain" class="contact-form">
+
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="name">Name</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="email">Email</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="message">How can I help?</label>
+          </div>
+          <div class="col span-2-of-3">
+            <textarea name="message" placeholder="Your message" id="message"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label>&nbsp;</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="submit" value="Send it!">
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+
 </body>
 </html>
