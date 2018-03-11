@@ -4,42 +4,201 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="js/main.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="css/master.css">
+  <meta name="description" content="This is a portfolio website for Joshua McEvoy - He is a full-stack web developer.">
+  <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+  <link rel="stylesheet" href="vendors/css/normalize.css">
+  <link rel="stylesheet" href="vendors/css/animate.css">
+  <link rel="stylesheet" href="vendors/css/grid.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+
   <title>Renowned Constructions</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="row">
-        <ul class="main-nav js--main-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div>
+    <header>
+      <!-- navigation -->
+      <nav>
+        <div class="row">
+          <ul class="main-nav js--main-nav">
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#work">Work</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#" class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        </div>
+      </nav>
 
-    <div class="hero-text-box">
-      <h1>RENOWNED CONSTRUCTIONS</h1>
-      <h3 id="header-title"></h3>
-      <a class="btn btn-full js--scroll-to-about" href="#">About</a>
-      <a class="btn btn-ghost js--scroll-to-contact" href="#">Contact</a>
+      <div class="hero-text-box">
+        <h1>Renowned Constructions</h1>
+        <!-- <h3 id="header-title"></h3> -->
+        <a class="btn btn-full js--scroll-to-about" href="#">About</a>
+        <a class="btn btn-ghost js--scroll-to-contact" href="#">Contact</a>
+      </div>
+
+    </header>
+  </div>
+
+  <!-- About -->
+  <section class="section-about js--section-about" id="about">
+    <div class="row">
+      <h2>Renowned Constructions</h2>
+      <p class="long-copy">
+        We're constructing something big. Come back and visit soon to see what we have planned.
+        <br>
+        If you have any questions contact James on (+61) 481 339 570.
+        <br>
+        <br>
+        Alternatively, you can email us using the form <a href="#contact">below</a>.
+      </p>
+
+      <!-- <div class="row js--wp-1">
+        <div class="col span-1-of-4 box">
+          <i class="ion-university icon-big"></i>
+          <h3>XXXXXXXXXXX</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="ion-ios-bookmarks icon-big"></i>
+          <h3>XXXXXXXXXXX</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="ion-ios-cog icon-big"></i>
+          <h3>XXXXXXXXXXX</h3><br>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="ion-ios-infinite icon-big"></i>
+          <h3>XXXXXXXXXXX</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <!-- <section class="section-works-gallery">
+    <ul class="works-showcase clearfix">
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+    </ul>
+    <ul class="works-showcase clearfix">
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+      <li>
+        <figure class="works-photo">
+          <img src="#" alt="">
+        </figure>
+      </li>
+    </ul>
+  </section> -->
+
+  <!-- Works -->
+  <!-- <section class="section-works" id="work">
+    <div class="row">
+      <h2>Construction Sites</h2>
+    </div>
+    <div class="row js--wp-3">
+
+      <div class="col span-1-of-3 box">
+        <a href="#" class="works-github-link" target="_blank"><img src="#" alt="Lisbon"></a>
+        <h3>XXXXXXXXXXX</h3>
+        <div class="city-feature">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-github icon-small"></i>
+          <a href="#" target="_blank">XXXXXXXXXXX</a>
+        </div>
+      </div>
+
+      <div class="col span-1-of-3 box">
+        <a href="#" class="works-github-link" target="_blank"><img src="#" alt="Viral Tags"></a>
+        <h3>XXXXXXXXXXX</h3>
+        <div class="city-feature">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-github icon-small"></i>
+          <a href="#" target="_blank">XXXXXXXXXXX</a>
+        </div>
+      </div> -->
+
+      <!-- <div class="col span-1-of-4 box">
+        <a href="https://reactexpressmongodb.herokuapp.com/" class="works-github-link" target="_blank"><img src="resources/img/lisbon-3.jpg" alt="Lisbon"></a>
+        <h3>REM</h3>
+        <div class="city-feature">
+          REM is a project using React, Express, MongoDB, and a variety of other technologies to create a CRUD system.
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-github icon-small"></i>
+          <a href="https://github.com/JoshuaMcEvoy/reactexpressmongodb" target="_blank">Github repository</a>
+        </div>
+      </div> -->
+
+      <!-- <div class="col span-1-of-3 box">
+        <a href="#" class="works-github-link" target="_blank"><img src="#" alt="Omnifood"></a>
+        <h3>XXXXXXXXXXX</h3>
+        <div class="city-feature">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-github icon-small"></i>
+          <a href="#" target="_blank">XXXXXXXXXXX</a>
+        </div>
+      </div>
     </div>
 
-  </header>
-
-  <section class="section-about js--section-about" id="about">
-    <h2>Coming Soon</h2>
-    <p>We're constructing big things. Visit us again soon to see what we have planned.</p>
-    <p>For additional information please contact James on (+61) 481 339 570</p>
-  </section>
+  </section> -->
 
   <section class="section-form js--section-contact" id="contact">
     <div class="row">
-      <h2>Yes, I'm available for work</h2>
+      <h2>Contact Us</h2>
     </div>
     <div class="form">
-      <form action="mailto:james@renownedconstructions.com.au" method="post" enctype="text/plain" class="contact-form">
+      <form action="mailto:james@renownerconstructions.com.au" method="post" enctype="text/plain" class="contact-form">
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -61,7 +220,7 @@
 
         <div class="row">
           <div class="col span-1-of-3">
-            <label for="message">How can I help?</label>
+            <label for="message">How can we help?</label>
           </div>
           <div class="col span-2-of-3">
             <textarea name="message" placeholder="Your message" id="message"></textarea>
@@ -81,6 +240,36 @@
     </div>
   </section>
 
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#work">Work</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="#" target="_blank"><i class="ion-social-github"></i></a></li>
+          <li><a href="#" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="#" target="_blank"><i class="ion-social-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="row">
+      <p>Copyright &copy; 2018 by Renowned Constructions. All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- adding responsiveness for older browsers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+  <script src="resources/js/script.js" charset="utf-8"></script>
+  <script src="vendors/js/jquery.waypoints.min.js" charset="utf-8"></script>
 </body>
+
 </html>
