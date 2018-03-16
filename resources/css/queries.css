@@ -24,12 +24,14 @@
   .main-nav {
     display: none;
     float: left;
-    margin-top: 35px;
+    text-align: right;
+    margin-top: 7px;
     margin-left: 35px;
   }
 
-  .mobile-nav-icon {
+  #nav-icon {
     display: inline-block;
+    float: right;
     border: 0;
   }
 
@@ -45,6 +47,9 @@
     font-size: 100%;
   }
 
+  .sticky {
+    height: 100px;
+  }
 
   .sticky .main-nav {
     margin-top: 10px;
@@ -55,16 +60,16 @@
     padding: 10px 0;
   }
 
-  .sticky .mobile-nav-icon {
+  .sticky #nav-icon {
     margin-top: 10px;
   }
 
-  .sticky .mobile-nav-icon i {
+  .sticky #nav-icon span {
     color: #555;
   }
 
 
-  h1 { font-size: 180%; }
+  /* h1 { font-size: 180%; } */
   h2 { font-size: 150%; }
 
   .long-copy {
